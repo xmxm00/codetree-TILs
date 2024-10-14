@@ -102,7 +102,7 @@ public class Main {
                 }
             }
         }
-        if(cur.r == 0) {
+        if(cur.r <= 1) {
             clearForest();
         } else {
             forest[cur.r][cur.c] = -cur.d - 1;
